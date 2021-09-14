@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-'''
-
-'''
-
 def arguments():
     import argparse, sys
     parser = argparse.ArgumentParser()
