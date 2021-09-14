@@ -5,7 +5,7 @@ def arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', "--compCLS", help="comparative analysis .cls file", type=argparse.FileType('r'), required=True)
     parser.add_argument("-d", "--annotFiles", help = "Directory of read annotation files", type=str, required=True, nargs='+')
-    parser.add_argument('-m', "--maxCluster", help="maximum cluster to check in comparative", type=int, required=True)
+    parser.add_argument('-m', "--maxCluster", help="maximum cluster to check in comparative, [INT]", type=int, required=True)
     parser.add_argument("-o", "--outFILE", help="output file, default STDOUT", nargs='?', type=argparse.FileType('w'), default=sys.stdout)
     ArgP = parser.parse_args()
     return ArgP

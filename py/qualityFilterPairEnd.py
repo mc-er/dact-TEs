@@ -7,8 +7,8 @@ def arguments():
 	parser.add_argument("-r", "--reverseFILE", help = "Forward read file, fastq format", type=argparse.FileType('r'), required=True)
 	parser.add_argument("-of", "--outFORWARD", help = "Output fastq file", type=argparse.FileType('w'), required=True)
 	parser.add_argument("-or", "--outREVERSE", help = "Output fastq file", type=argparse.FileType('w'), required=True)
-	parser.add_argument('-q', '--minq',help="min qual thresh for counting nucleotide as good enough", required=False, type=int, default=20)
-	parser.add_argument('-b', '--basep',help="percent bases per seq required to be above minq thresh",required=False, type=float, default=0.95)
+	parser.add_argument('-q', '--minq',help="min qual thresh for counting nucleotide as good enough, [INT]", required=False, type=int, default=20)
+	parser.add_argument('-b', '--basep',help="percent bases per seq required to be above minq thresh, [FLOAT]",required=False, type=float, default=0.95)
 	parser.add_argument('-n', '--ns',help="number of N allowed in each seq",required=False, type=int, default=0)
 	ArgP = parser.parse_args()
 	return ArgP

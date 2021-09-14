@@ -1,3 +1,7 @@
+Scripts used in the analysis for the publication:
+[info to be inserted]
+
+
 ###############################################
 ##### to run py/comparative_annotation.py #####
 ###############################################
