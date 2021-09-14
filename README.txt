@@ -18,15 +18,15 @@ file examples:
 
 -a annotation.csv
 head file.csv
-1  58034	annotation-1
-2	 19942	annotation-2
-3	 19540	annotation-3
-4	 16117	annotation-2
-5	 15678	annotation-4
-6	 15218	annotation-4
-7	 14455	annotation-4
-8	 13458	annotation-2
-9	 12187	annotation-2
+1 58034	annotation-1
+2	19942	annotation-2
+3	19540	annotation-3
+4	16117	annotation-2
+5	15678	annotation-4
+6	15218	annotation-4
+7	14455	annotation-4
+8	13458	annotation-2
+9	12187	annotation-2
 10	11776	annotation-5
 
 -c hitsort.cls found in the Repeat Explorer output. [output-archive/seqclust/clustering/hitsort.cls]
@@ -74,13 +74,13 @@ file examples:
 
 -o comp-annotation-summary.txt
 head comp-annotation-summary.txt
-CL1	 annotation-1: 0.9996,unclassified: 0.0004
-CL2	 annotation-4: 0.9893,unclassified: 0.0104,annotation-1: 0.0003
-CL3	 annotation-1: 0.994,unclassified: 0.006
-CL4	 annotation-9: 0.9798,unclassified: 0.0181,annotation-7 0.0021
-CL5	 annotation-2: 0.9459,unclassified: 0.0542,
-CL6	 annotation-2: 1.0
-CL7	 annotation-5: 0.9669,unclassified: 0.0293,6: 0.0021,annotation-3: 0.0017
-CL8	 annotation-2: 0.9783,unclassified: 0.0217
-CL9	 annotation-2: 0.9952,unclassified: 0.0048
+CL1 annotation-1: 0.9996,unclassified: 0.0004
+CL2	annotation-4: 0.9893,unclassified: 0.0104,annotation-1: 0.0003
+CL3	annotation-1: 0.994,unclassified: 0.006
+CL4	annotation-9: 0.9798,unclassified: 0.0181,annotation-7 0.0021
+CL5	annotation-2: 0.9459,unclassified: 0.0542,
+CL6	annotation-2: 1.0
+CL7	annotation-5: 0.9669,unclassified: 0.0293,6: 0.0021,annotation-3: 0.0017
+CL8	annotation-2: 0.9783,unclassified: 0.0217
+CL9	annotation-2: 0.9952,unclassified: 0.0048
 CL10	annotation-2: 0.9919,unclassified: 0.008,annotation-1: 0.0001
