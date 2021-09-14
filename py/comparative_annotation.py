@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+ '''
+ provided by Jamie McCann
+ '''
 
 def parse_cls_file(filename, annotation):
 
